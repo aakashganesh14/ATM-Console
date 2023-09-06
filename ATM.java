@@ -147,7 +147,7 @@ class Bank {
 public class ATM{
     public static void main(String[] args) {
         Bank bank = new Bank();
-        AccountHolder accountHolder = new AccountHolder(7894, 561237894);
+        AccountHolder accountHolder = new AccountHolder(7894, 56123);
         bank.addAccountHolder(accountHolder);
         bank.createAccount(accountHolder, 1001, 1000.0);
         bank.createAccount(accountHolder, 1002, 500.0);
